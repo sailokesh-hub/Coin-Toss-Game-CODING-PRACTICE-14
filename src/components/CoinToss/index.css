@@ -1,0 +1,58 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.toss-bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.toss-card {
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  margin: 15px;
+}
+
+.title {
+  margin: 15px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.toss-btn {
+  background-color: #f9d423;
+  border: none;
+  height: 25px;
+  border-radius: 6px;
+  color: #a35200;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.count-container {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
